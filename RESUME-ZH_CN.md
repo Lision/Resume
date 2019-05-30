@@ -6,7 +6,7 @@
 
 - 1992/男/北京
 - 本科/内蒙古大学-211/计算机科学与技术
-- 工作年限：4.5 年
+- 工作年限：5 年
 - GitHub：[https://github.com/Lision](https://github.com/Lision)
 - 技术博客：[https://lision.me/](https://lision.me/)
 - 新浪微博：[https://weibo.com/lisioncode](https://weibo.com/lisioncode)
@@ -14,14 +14,14 @@
 
 ## 技能清单
 
-- 三年多 iOS 工作开发经验
+- 接近 4 年 iOS 工作开发经验
 	- 熟悉 Objective-C
 	- 熟悉 CoreAnimation
-	- 熟悉 Multitasking(Pthreads, NSThread, GCD, Operation && Operation Queues)
+	- 熟悉 Multitasking
 	- 熟悉 Runtime, RunLoop
 	- 熟悉 Xcode
 	- 了解 Swift
-- 三年多 Git 命令行使用经验
+- 接近 4 年 Git 命令行使用经验
 - 一年多 C++(Qt) 跨平台开发经验
 - 自学 Ruby，Python，JavaScript，Html，CSS 
 
@@ -31,11 +31,11 @@
 
 [https://github.com/Lision/LSAnimator](https://github.com/Lision/LSAnimator)
 
-1300+ Stars
+1400+ Stars
 
 Personal Project
 
-- **Swift Support:** Swift 3.2 ~ 4.2 Support.
+- **Swift Support:** Swift 3.2 ~ 5.0 Support.
 - **Friendly Swift Interface:** Added friendly Swift interface in separate framework.
 - **Multi-chain Animations:** Can complete all animation design needs.
 - **CALayer Support:** Support CALayer initialization.
@@ -47,11 +47,11 @@ Personal Project
 
 [https://github.com/Lision/WKWebViewJavascriptBridge](https://github.com/Lision/WKWebViewJavascriptBridge)
 
-400+ Stars
+500+ Stars
 
 Personal Project
 
-- **Swift Support:** Swift 3.2 ~ 4.2 Support.
+- **Swift Support:** Swift 3.2 ~ 5.0 Support.
 - **High Performance:** The messaging performance is higher than intercept requests.
 - **High Speed:** No need to consider alert box safety timeout.
 - **Lightwight:** This framework contains only 3 files.
@@ -67,8 +67,10 @@ From February 2018
 
 Takeaway Business Edition
 
-- Video Editing (Clips & Filters & Mixing)
+- Head of The Order Business Module (Architecture, Planning, Docking)
+- Data Persistence Layer and Data Access Layer Reconstruction
 - Network Layer Reconstruction
+- Video Editing (Clips & Filters & Mixing)
 - iOS Componentization
 - Business Understanding & Implementation
 
@@ -89,21 +91,13 @@ Shared Space/Concentrate On Work/Elegant Meeting
 
 > [https://itunes.apple.com/cn/app/%E5%8D%A1%E7%89%9B%E4%BF%A1%E7%94%A8%E7%AE%A1%E5%AE%B6%E4%B8%93%E4%B8%9A%E7%89%88-%E4%BF%A1%E7%94%A8%E7%AE%A1%E7%90%86%E9%A2%86%E5%AF%BC%E5%93%81%E7%89%8C/id1192251326?mt=8](https://itunes.apple.com/cn/app/%E5%8D%A1%E7%89%9B%E4%BF%A1%E7%94%A8%E7%AE%A1%E5%AE%B6%E4%B8%93%E4%B8%9A%E7%89%88-%E4%BF%A1%E7%94%A8%E7%AE%A1%E7%90%86%E9%A2%86%E5%AF%BC%E5%93%81%E7%89%8C/id1192251326?mt=8)
 
-From May 2016
+From October 2015
 
 Credit Card Management Assistant/Personal Finance/Debit And Credit
 
 - Multitasking
 - CoreAnimation
 - APNs
-
-### 车镇车源
-
-> [https://itunes.apple.com/cn/app/%E8%BD%A6%E9%95%87%E8%BD%A6%E6%BA%90-%E8%AE%A9%E8%BD%A6%E5%95%86%E6%9B%B4%E4%BC%9A%E5%8D%96%E8%BD%A6/id1022244878?mt=8](https://itunes.apple.com/cn/app/%E8%BD%A6%E9%95%87%E8%BD%A6%E6%BA%90-%E8%AE%A9%E8%BD%A6%E5%95%86%E6%9B%B4%E4%BC%9A%E5%8D%96%E8%BD%A6/id1022244878?mt=8)
-
-From October 2015
-
-- Whole App Development
 
 ### 金证资管云
 
@@ -124,8 +118,10 @@ iOS Developer
 
 February 2018 - Now
 
-- WMBAVKit Development (Based on AVFoundation & OpenGL ES)
+- Order Business Module Development (Architecture, Planning, Docking)
+- Data Persistence Layer and Data Access Layer (Reconstruction)
 - Network Layer Development (Reconstruction)
+- WMBAVKit Development (Based on AVFoundation & OpenGL ES)
 - iOS Componentization (Participate)
 - MVVM + RAC
 
@@ -145,21 +141,11 @@ June 2017 - February 2018
 
 iOS Developer
 
-May 2016 - January 2017
+October 2015 - January 2017
 
 - APNs Development
 - UI Development
 - Animation Development
-
-### 深圳市易车合创科技有限公司
-
-iOS Developer
-
-October 2015 - May 2016
-
-- NetWorking Layer Design
-- App Business Implementation
-- 车镇 iOS APP Version Iteration
 
 ### 深圳市金证科技股份有限公司（股票代码 600446）
 
@@ -173,6 +159,6 @@ March 2014 - October 2015
 ## 其他信息
 
 - 英语 CET-4
-- 内蒙古大学精英学生开发者联盟（IMUDGES，Inner Mongolia University Developer Group of Elite Student）安卓 Leader（2012-2013）
+- 内蒙古大学精英学生开发者联盟（IMUDGES，Inner Mongolia University Developer Group of Elite Student）安卓团队 Leader（2012-2013）
 - 华为杯移动应用大赛本科组全国二等奖
 - 单项奖学金
