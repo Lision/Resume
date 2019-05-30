@@ -27,88 +27,67 @@
 
 ## 开源项目
 
-### LSAnimator - An easy to read and write, non-invasive multi-chain animation framework, inspired by JHChainableAnimations.
+### LSAnimator - 一个易于阅读和编写，非侵入性的多链式动画框架，灵感源于 JHChainableAnimations。
 
 [https://github.com/Lision/LSAnimator](https://github.com/Lision/LSAnimator)
 
 1400+ Stars
 
-Personal Project
+个人项目
 
-- **Swift Support:** Swift 3.2 ~ 5.0 Support.
-- **Friendly Swift Interface:** Added friendly Swift interface in separate framework.
-- **Multi-chain Animations:** Can complete all animation design needs.
-- **CALayer Support:** Support CALayer initialization.
-- **Parameter Auto-completion:** Support parameter auto-completion.
-- **Support for Animation Hooks:** Added pre-animation and post-animation hooks for each animation step. Added a final completion hook that fires when all animation chains have completed.
-- **Non-intrusive:** There is no need to make the view/layer class inherit from other base class.
+- **支持 Swift:** 支持 Swift 3.2 ~ 5.0。
+- **友好的 Swift 接口:** 使用独立的 Framework 封装 Swift 接口。
+- **多链式动画:** 可以还原几乎所有的动画设计。
+- **支持 CALayer:** 支持使用 CALayer 初始化。
+- **参数自动补全:** 支持 DSL 链式调用时自动补全参数。
+- **支持 Hook 动画:** 可以在动画链的任意节点前后插桩，并且支持在多个动画链全部执行完毕后插桩。
+- **无侵入性:** 不需要改变项目现有 view/layer 的类继承。
 
-### WKWebViewJavascriptBridge - A Bridge for Sending Messages between Swift and JavaScript in WKWebViews.
+### WKWebViewJavascriptBridge - 针对 WKWebView 用于在 Swift 和 JavaScript 之间发送消息的桥梁。
 
 [https://github.com/Lision/WKWebViewJavascriptBridge](https://github.com/Lision/WKWebViewJavascriptBridge)
 
 500+ Stars
 
-Personal Project
+个人项目
 
-- **Swift Support:** Swift 3.2 ~ 5.0 Support.
-- **High Performance:** The messaging performance is higher than intercept requests.
-- **High Speed:** No need to consider alert box safety timeout.
-- **Lightwight:** This framework contains only 3 files.
-- **Non-intrusive:** There is no need to make the webview class inherit from other base class.
+- **支持 Swift:** 支持 Swift 3.2 ~ 5.0。
+- **高性能:** 消息传递性能高于基于拦截请求实现的桥。
+- **更快的速度:** 无需考虑 Alert Box Safety Timeout。
+- **足够轻量:** 这个框架只有 3 个源码文件。
+- **无侵入性:** 不需要改变 webview 的类继承。
 
 ## 工作项目
 
-### 美团外卖商家版
+### 美团外卖商家版 - 订单管理/商品管理/商务服务
 
 > [https://itunes.apple.com/cn/app/%E7%BE%8E%E5%9B%A2%E5%A4%96%E5%8D%96%E5%95%86%E5%AE%B6%E7%89%88-%E7%AE%A1%E5%AE%B6%E5%90%8E%E5%8F%B0/id869802614?mt=8](https://itunes.apple.com/cn/app/%E7%BE%8E%E5%9B%A2%E5%A4%96%E5%8D%96%E5%95%86%E5%AE%B6%E7%89%88-%E7%AE%A1%E5%AE%B6%E5%90%8E%E5%8F%B0/id869802614?mt=8)
 
-From February 2018
+- 订单业务模块负责人，负责整个外卖商家端订单业务模块的架构设计，技术规划，作为该业务模块的对接人负责与其他团队就该业务模块相关任务对接。
+- 重新设计 App 的数据持久化方案，包括数据持久层（数据库与缓存），数据访问层（线程调度与逻辑校验），并重构了相关业务模块的数据访问对象。
+- 重构 App 网络层代码，新增中间层做统一修改入口（收敛修改逻辑并解耦），解决历史代码存在的问题（去掉非必要 Hook，相似 API 过多）。
+- 主 R 商家端 iOS 客户端视频编辑基础能力库（剪辑，滤镜，混音），包含两个子库分别是 UI 和 Core。其中 UI 依赖 Core，用于快速支持业务端开发视频业务时搭建相关页面；Core 则是与 UI 无关的视频编辑基础功能实现，用于最大粒度的支持其他业务方接入（不影响其业务自由度）。
+- 经历并参与了 App 组件化，平台化，工程化阶段。
+- 其他业务需求的理解与功能实现。
 
-Takeaway Business Edition
-
-- Head of The Order Business Module (Architecture, Planning, Docking)
-- Data Persistence Layer and Data Access Layer Reconstruction
-- Network Layer Reconstruction
-- Video Editing (Clips & Filters & Mixing)
-- iOS Componentization
-- Business Understanding & Implementation
-
-### ELSEWHERE
+### ELSEWHERE - 共享空间/专注于工作/优雅会议
 
 > [https://itunes.apple.com/cn/app/elsewhere/id1210276702?mt=8](https://itunes.apple.com/cn/app/elsewhere/id1210276702?mt=8)
-
-From June 2017
-
-Shared Space/Concentrate On Work/Elegant Meeting
 
 - Map & Location
 - Pay
 - Hybrid
 - Functional Programming
 
-### 卡牛
+### 卡牛 - 信用卡管理助理/个人理财/借记卡和信用卡
 
 > [https://itunes.apple.com/cn/app/%E5%8D%A1%E7%89%9B%E4%BF%A1%E7%94%A8%E7%AE%A1%E5%AE%B6%E4%B8%93%E4%B8%9A%E7%89%88-%E4%BF%A1%E7%94%A8%E7%AE%A1%E7%90%86%E9%A2%86%E5%AF%BC%E5%93%81%E7%89%8C/id1192251326?mt=8](https://itunes.apple.com/cn/app/%E5%8D%A1%E7%89%9B%E4%BF%A1%E7%94%A8%E7%AE%A1%E5%AE%B6%E4%B8%93%E4%B8%9A%E7%89%88-%E4%BF%A1%E7%94%A8%E7%AE%A1%E7%90%86%E9%A2%86%E5%AF%BC%E5%93%81%E7%89%8C/id1192251326?mt=8)
 
-From October 2015
-
-Credit Card Management Assistant/Personal Finance/Debit And Credit
+始于 2015 年 10 月
 
 - Multitasking
 - CoreAnimation
 - APNs
-
-### 金证资管云
-
-> [http://www.szkingdom.com/publisher/Field_Ass_01/ContentDetail-15951.html](http://www.szkingdom.com/publisher/Field_Ass_01/ContentDetail-15951.html)
-
-From March 2014
-
-Investment Deals/Asset Management/Private Fund
-
-- Qt
-- Socket
 
 ## 工作经历
 
