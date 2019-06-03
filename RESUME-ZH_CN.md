@@ -75,10 +75,9 @@
 
 > [https://itunes.apple.com/cn/app/elsewhere/id1210276702?mt=8](https://itunes.apple.com/cn/app/elsewhere/id1210276702?mt=8)
 
-- Map & Location
-- Pay
-- Hybrid
-- Functional Programming
+- 独立负责整个 App 的架构设计，层级划分，第三方框架的选择。
+- 独立设计并实现 App 内 Hybrid 基础能力库，包括 JavaScriptBridge 通信等。
+- 引入 ReactiveCocoa 结合 MVVM 设计模式提高生产力，快速高效支持业务迭代。
 
 ### 卡牛 - 信用卡管理助理/个人理财/借记卡和信用卡
 
@@ -86,9 +85,8 @@
 
 始于 2015 年 10 月
 
-- Multitasking
-- CoreAnimation
-- APNs
+- 多线程加载账单信息，提升信用卡账单导入效率，增大可同时导入信用卡最大数。
+- 在 JHChainableAnimations 的基础上扩展多链式动画，高效率高质量还原交互动画设计。
 
 ## 工作经历
 
