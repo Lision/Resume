@@ -23,7 +23,7 @@
 	- 了解 Swift
 - 接近 4 年 Git 命令行使用经验
 - 1 年多 C++(Qt) 跨平台开发经验
-- 自学 Ruby，Python，JavaScript，Html，CSS 
+- 自学 Ruby，Python，JavaScript，Html，CSS
 
 ## 开源项目
 
@@ -79,22 +79,12 @@
 - 独立设计并实现 App 内 Hybrid 基础能力库，包括 JavaScriptBridge 通信等。
 - 引入 ReactiveCocoa 结合 MVVM 设计模式提高生产力，快速高效支持业务迭代。
 
-### 卡牛 - 信用卡管理助理/个人理财/借记卡和信用卡
-
-> [https://itunes.apple.com/cn/app/%E5%8D%A1%E7%89%9B%E4%BF%A1%E7%94%A8%E7%AE%A1%E5%AE%B6%E4%B8%93%E4%B8%9A%E7%89%88-%E4%BF%A1%E7%94%A8%E7%AE%A1%E7%90%86%E9%A2%86%E5%AF%BC%E5%93%81%E7%89%8C/id1192251326?mt=8](https://itunes.apple.com/cn/app/%E5%8D%A1%E7%89%9B%E4%BF%A1%E7%94%A8%E7%AE%A1%E5%AE%B6%E4%B8%93%E4%B8%9A%E7%89%88-%E4%BF%A1%E7%94%A8%E7%AE%A1%E7%90%86%E9%A2%86%E5%AF%BC%E5%93%81%E7%89%8C/id1192251326?mt=8)
-
-始于 2015 年 10 月
-
-- 多线程加载账单信息，提升信用卡账单导入效率，增大可同时导入信用卡最大数。
-- 在 JHChainableAnimations 的基础上扩展多链式动画，高效率高质量还原交互动画设计。
-
 ## 工作经历
 
 ### 北京三快在线科技有限公司
 
-iOS Developer
-
-February 2018 - Now
+iOS 开发工程师（P2-2） 2018/02 - 2018/09
+iOS 高级开发工程师（P2-3） 2018/10 - 至今
 
 - Order Business Module Development (Architecture, Planning, Docking)
 - Data Persistence Layer and Data Access Layer (Reconstruction)
@@ -105,9 +95,7 @@ February 2018 - Now
 
 ### 北京隐力场科技有限公司
 
-iOS Leader
-
-June 2017 - February 2018
+iOS Team Leader 2017/06 - 2018/02
 
 - NetWorking Layer With Functional Programming Design
 - Animation Kit Development
@@ -117,22 +105,12 @@ June 2017 - February 2018
 
 ### 深圳市随手科技有限公司（原金蝶随手记）
 
-iOS Developer
-
-October 2015 - January 2017
-
-- APNs Development
-- UI Development
-- Animation Development
+iOS 开发工程师 2015/10 - 2017/03
 
 ### 深圳市金证科技股份有限公司（股票代码 600446）
 
-C & C++ Developer And Student
-
-March 2014 - October 2015
-
-- Asset Management Cloud Platform Development
-- Self-study Objective-C
+C 研发实习生 2014/02 - 2014/06
+C++ 研发工程师 2014/06 - 2015/10
 
 ## 其他信息
 
