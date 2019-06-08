@@ -6,7 +6,7 @@
 
 - 1992/男/北京
 - 本科/内蒙古大学-211/计算机科学与技术
-- 工作年限：4.5 年
+- 工作年限：5 年
 - GitHub：[https://github.com/Lision](https://github.com/Lision)
 - 技术博客：[https://lision.me/](https://lision.me/)
 - 新浪微博：[https://weibo.com/lisioncode](https://weibo.com/lisioncode)
@@ -14,165 +14,103 @@
 
 ## 技能清单
 
-- 三年多 iOS 工作开发经验
+- 接近 4 年 iOS 工作开发经验
 	- 熟悉 Objective-C
 	- 熟悉 CoreAnimation
-	- 熟悉 Multitasking(Pthreads, NSThread, GCD, Operation && Operation Queues)
+	- 熟悉 Multitasking
 	- 熟悉 Runtime, RunLoop
 	- 熟悉 Xcode
 	- 了解 Swift
-- 三年多 Git 命令行使用经验
-- 一年多 C++(Qt) 跨平台开发经验
-- 自学 Ruby，Python，JavaScript，Html，CSS 
+- 接近 4 年 Git 命令行使用经验
+- 1 年多 C++(Qt) 跨平台开发经验
+- 自学 Ruby，Python，JavaScript，Html，CSS
 
 ## 开源项目
 
-### LSAnimator - An easy to read and write, non-invasive multi-chain animation framework, inspired by JHChainableAnimations.
+### LSAnimator - 一个易于阅读和编写，非侵入性的多链式动画框架，灵感源于 JHChainableAnimations。
 
 [https://github.com/Lision/LSAnimator](https://github.com/Lision/LSAnimator)
 
-1300+ Stars
+1400+ Stars
 
-Personal Project
+个人项目
 
-- **Swift Support:** Swift 3.2 ~ 4.2 Support.
-- **Friendly Swift Interface:** Added friendly Swift interface in separate framework.
-- **Multi-chain Animations:** Can complete all animation design needs.
-- **CALayer Support:** Support CALayer initialization.
-- **Parameter Auto-completion:** Support parameter auto-completion.
-- **Support for Animation Hooks:** Added pre-animation and post-animation hooks for each animation step. Added a final completion hook that fires when all animation chains have completed.
-- **Non-intrusive:** There is no need to make the view/layer class inherit from other base class.
+- **支持 Swift:** 支持 Swift 3.2 ~ 5.0。
+- **友好的 Swift 接口:** 使用独立的 Framework 封装 Swift 接口。
+- **多链式动画:** 可以还原几乎所有的动画设计。
+- **参数自动补全:** 支持 DSL 链式调用时自动补全参数。
+- **支持 Hook 动画:** 可以在动画链的任意节点前后插桩，并且支持在多个动画链全部执行完毕后插桩。
+- **无侵入性:** 不需要改变项目现有 View/Layer 的类继承。
 
-### WKWebViewJavascriptBridge - A Bridge for Sending Messages between Swift and JavaScript in WKWebViews.
+### WKWebViewJavascriptBridge - 针对 WKWebView 用于在 Swift 和 JavaScript 之间发送消息的桥梁。
 
 [https://github.com/Lision/WKWebViewJavascriptBridge](https://github.com/Lision/WKWebViewJavascriptBridge)
 
-400+ Stars
+500+ Stars
 
-Personal Project
+个人项目
 
-- **Swift Support:** Swift 3.2 ~ 4.2 Support.
-- **High Performance:** The messaging performance is higher than intercept requests.
-- **High Speed:** No need to consider alert box safety timeout.
-- **Lightwight:** This framework contains only 3 files.
-- **Non-intrusive:** There is no need to make the webview class inherit from other base class.
+- **支持 Swift:** 支持 Swift 3.2 ~ 5.0。
+- **高性能:** 消息传递性能高于基于拦截请求实现的桥。
+- **足够轻量:** 这个框架只有 3 个源码文件。
+- **无侵入性:** 不需要改变 webview 的类继承。
 
 ## 工作项目
 
-### 美团外卖商家版
+### 美团外卖商家版 - 订单管理/商品管理/商务服务
 
 > [https://itunes.apple.com/cn/app/%E7%BE%8E%E5%9B%A2%E5%A4%96%E5%8D%96%E5%95%86%E5%AE%B6%E7%89%88-%E7%AE%A1%E5%AE%B6%E5%90%8E%E5%8F%B0/id869802614?mt=8](https://itunes.apple.com/cn/app/%E7%BE%8E%E5%9B%A2%E5%A4%96%E5%8D%96%E5%95%86%E5%AE%B6%E7%89%88-%E7%AE%A1%E5%AE%B6%E5%90%8E%E5%8F%B0/id869802614?mt=8)
 
-From February 2018
+#### 订单数据持久化重构
 
-Takeaway Business Edition
+- S: 订单数据持久化方案最初设计于 2015 年下半年，整个设计**层级关系比较模糊**，**严重耦合 [YapDatabase](https://github.com/yapstudios/YapDatabase)**，且 YapDatabase 已经不能很好的满足当前业务发展。
+- T: 重新设计订单数据持久化方案，明确层级划分，解藕数据持久层具体实现。
+- A: 明确层级划分，从上到下依次为 Business DAO(Data Access Object) - DAL(Data Access Layer) - DPL(Data Persistence Layer) ，其中 DAO 属于业务数据访问层，随业务库拆分；DAL 做为统一数据访问层，使业务层与持久层具体实现解藕，并对数据访问做统一校验及其他收敛逻辑处理；DPL 则为数据持久层，负责数据库访问操作。
+- R: 重构后的数据持久化方案不仅适用于订单业务，还很好的支持了 PUSH 以及监控等需要数据库支持的业务。业务 DAO 开发时对 DPL 具体实现无感知，可以很容易的将 YapDatabase 替换成其他框架而不影响上层业务。
 
-- Video Editing (Clips & Filters & Mixing)
-- Network Layer Reconstruction
-- iOS Componentization
-- Business Understanding & Implementation
+#### WMBAVKit - 基于 OpenGL 实现的 iOS 视频编辑基础能力库
 
-### ELSEWHERE
+- S: 美团外卖商家赋能，随着业务的不断发展需要提供商家为商品制作短视频的能力，当时集团内部只有点评侧实现了类似功能。
+- T: 根据需求通过调研明确技术选型，在保证质量的前提下快速支持客户端视频编辑需求实现，并且保证组件可扩展性，为之后需求迭代做准备。
+- A: 从开源社区，国内一线大厂提供的视频点播服务以及集团内部点评侧基础研发平台相关的 SDK 中根据**功能覆盖，可维护性，使用成本，以及对现有项目的影响**这 4 个主要纬度进行调研，最终选择了点评侧技术方案。由于当时点评侧提供的 SDK 与其业务逻辑存在耦合，经过沟通，与点评侧基础技术组同学一起将 SDK 内部逻辑解藕，并将解藕后的功能实现层拆为 GL 子库。基于这个 GL 子库实现了 WMBAVKit，它包含 UI 和 Core 两个子库，其中 UI 依赖 Core，用于支持业务端开发视频编辑相关业务时快速搭建页面；Core 内部则是与 UI 无关的原子化视频编辑基础功能实现，用于最细粒度的支持其他业务方接入。
+- R: 外卖商品视频功能在 WMBAVKit 的支持下如期完成，自 2018 年 07 月上线后新增视频由 **3372.38 个/周**上升至 **30609.83 个/周**，线上 Crash 率**不到 0.003‱**。得益于 WMBAVKit 完备的 Demo 和友好的 API 设计，后被闪购事业部的同学低成本接入（前后沟通时间不超过 1 小时），帮助闪购侧快速实现了视频编辑相关的需求。
 
-> [https://itunes.apple.com/cn/app/elsewhere/id1210276702?mt=8](https://itunes.apple.com/cn/app/elsewhere/id1210276702?mt=8)
+#### 其他产出
 
-From June 2017
-
-Shared Space/Concentrate On Work/Elegant Meeting
-
-- Map & Location
-- Pay
-- Hybrid
-- Functional Programming
-
-### 卡牛
-
-> [https://itunes.apple.com/cn/app/%E5%8D%A1%E7%89%9B%E4%BF%A1%E7%94%A8%E7%AE%A1%E5%AE%B6%E4%B8%93%E4%B8%9A%E7%89%88-%E4%BF%A1%E7%94%A8%E7%AE%A1%E7%90%86%E9%A2%86%E5%AF%BC%E5%93%81%E7%89%8C/id1192251326?mt=8](https://itunes.apple.com/cn/app/%E5%8D%A1%E7%89%9B%E4%BF%A1%E7%94%A8%E7%AE%A1%E5%AE%B6%E4%B8%93%E4%B8%9A%E7%89%88-%E4%BF%A1%E7%94%A8%E7%AE%A1%E7%90%86%E9%A2%86%E5%AF%BC%E5%93%81%E7%89%8C/id1192251326?mt=8)
-
-From May 2016
-
-Credit Card Management Assistant/Personal Finance/Debit And Credit
-
-- Multitasking
-- CoreAnimation
-- APNs
-
-### 车镇车源
-
-> [https://itunes.apple.com/cn/app/%E8%BD%A6%E9%95%87%E8%BD%A6%E6%BA%90-%E8%AE%A9%E8%BD%A6%E5%95%86%E6%9B%B4%E4%BC%9A%E5%8D%96%E8%BD%A6/id1022244878?mt=8](https://itunes.apple.com/cn/app/%E8%BD%A6%E9%95%87%E8%BD%A6%E6%BA%90-%E8%AE%A9%E8%BD%A6%E5%95%86%E6%9B%B4%E4%BC%9A%E5%8D%96%E8%BD%A6/id1022244878?mt=8)
-
-From October 2015
-
-- Whole App Development
-
-### 金证资管云
-
-> [http://www.szkingdom.com/publisher/Field_Ass_01/ContentDetail-15951.html](http://www.szkingdom.com/publisher/Field_Ass_01/ContentDetail-15951.html)
-
-From March 2014
-
-Investment Deals/Asset Management/Private Fund
-
-- Qt
-- Socket
+- 平台化期间，闪购侧订单业务需求与外卖侧差异化逐渐加剧，需要订单业务模块在保证交付质量的同时不影响这两条业务线正常迭代。我作为订单业务模块的负责人，先在差异化需求前将订单模块代码完全拆分并完成初步的层级划分，然后制定了为期半年的技术规划，并将规划内容按照优先级排序供组内感兴趣的同学认领，接着着手完善订单基建并负责订单模块的 Code Review 工作。在 5.5 ~ 5.8 这几个闪购业务改造非常大的版本中没有业务需求延期的同时保证了线上零事故。
+- 服务端同学发现大量城市订单隐私号同时降级时会引起增量同步订单流量峰值过高的问题，高峰期可能会引发服务端宕机。我做为客户端主 R 负责解决这个问题，通过与 Android 客户端同学对接确认现有方案的瑕疵，一起订制了滞后获取隐私号信息的技术方案。上线后经过一段时间的观察，服务端同学确认问题得到解决。
+- 组件化期间发现网络层代码结构不清晰，对集团内的网络库存在多处分散修改，将问题抛出后负责网络层代码的重构工作。期间通过新增中间层做统一修改入口，将验签和流量统计等逻辑收敛至中间层，同时去掉历史代码中对集团内网络库不必要的 Hook，使网络层代码的可读性与可维护性得到提升。
 
 ## 工作经历
 
 ### 北京三快在线科技有限公司
 
-iOS Developer
+iOS 开发工程师（P2-2） 2018/02 - 2018/09
+iOS 高级开发工程师（P2-3） 2018/10 - 至今
 
-February 2018 - Now
-
-- WMBAVKit Development (Based on AVFoundation & OpenGL ES)
-- Network Layer Development (Reconstruction)
-- iOS Componentization (Participate)
-- MVVM + RAC
+- 订单业务模块负责人，负责美团外卖 iOS 商家客户端订单业务模块的架构设计，技术规划，问题处理，并作为该业务模块的对接人负责与其他团队就该业务模块相关事务对接。
+- 2019 年做为团队内唯一的春季校招实习生一面面试官，负责结合面试标准把关候选人的技术能力。
 
 ### 北京隐力场科技有限公司
 
-iOS Leader
-
-June 2017 - February 2018
-
-- NetWorking Layer With Functional Programming Design
-- Animation Kit Development
-- JSBridge Development
-- WebView Package
-- ELSEWHERE iOS APP Version Iteration
+iOS 组长 2017/06 - 2018/02
 
 ### 深圳市随手科技有限公司（原金蝶随手记）
 
-iOS Developer
-
-May 2016 - January 2017
-
-- APNs Development
-- UI Development
-- Animation Development
+iOS 开发工程师 2016/05 - 2017/01
 
 ### 深圳市易车合创科技有限公司
 
-iOS Developer
-
-October 2015 - May 2016
-
-- NetWorking Layer Design
-- App Business Implementation
-- 车镇 iOS APP Version Iteration
+iOS 开发工程师 2015/10 - 2016/05
 
 ### 深圳市金证科技股份有限公司（股票代码 600446）
 
-C & C++ Developer And Student
-
-March 2014 - October 2015
-
-- Asset Management Cloud Platform Development
-- Self-study Objective-C
+C 研发实习生 2014/02 - 2014/06
+C++ 研发工程师 2014/06 - 2015/10
 
 ## 其他信息
 
 - 英语 CET-4
-- 内蒙古大学精英学生开发者联盟（IMUDGES，Inner Mongolia University Developer Group of Elite Student）安卓 Leader（2012-2013）
+- 内蒙古大学精英学生开发者联盟（IMUDGES，Inner Mongolia University Developer Group of Elite Student）安卓团队 Leader（2012-2013）
 - 华为杯移动应用大赛本科组全国二等奖
 - 单项奖学金
