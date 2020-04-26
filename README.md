@@ -4,20 +4,19 @@
 
 Chaoyang District, Beijing, China.
 
-(+86) 185-7665-3086  lisionmail@gmail.com
+(+86)185-7665-3086  lisionmail@gmail.com
 
 ## TECHNICAL SKILLS
 
-- Near 4 Years iOS Development Experience
+- Near 5 Years iOS Development Experience
 	- Solid knowledge about Objective-C
-	- Solid knowledge about CoreAnimation
-	- Solid knowledge about Multitasking
+	- Solid knowledge about CoreAnimation & Multitasking
 	- Solid knowledge about Runtime, RunLoop
 	- Solid knowledge about Xcode
-	- Learn about Swift
-- Near 4 Years Git Command Line Experience
+	- Learn about Swift, SwiftUI, RN, Flutter
+- Near 5 Years Git Command Line Experience
 - More than 1 Year C++(Qt) Cross-platform development experience
-- Self-study Ruby, Python, JavaScript, Html, CSS
+- Self-study Ruby, Python, JavaScript, Html, CSS, Dart
 
 ## Open Source Projects
 
@@ -25,11 +24,11 @@ Chaoyang District, Beijing, China.
 
 [https://github.com/Lision/LSAnimator](https://github.com/Lision/LSAnimator)
 
-1400+ Stars
+1500+ Stars
 
 Personal Project
 
-- **Swift Support:** Swift 3.2 ~ 5.0 Support.
+- **Swift Support:** Swift 3.2 ~ 5.x Support.
 - **Friendly Swift Interface:** Added friendly Swift interface in separate framework.
 - **Multi-chain Animations:** Can complete all animation design needs.
 - **CALayer Support:** Support CALayer initialization.
@@ -41,14 +40,14 @@ Personal Project
 
 [https://github.com/Lision/WKWebViewJavascriptBridge](https://github.com/Lision/WKWebViewJavascriptBridge)
 
-500+ Stars
+600+ Stars
 
 Personal Project
 
-- **Swift Support:** Swift 3.2 ~ 5.0 Support.
+- **Swift Support:** Swift 3.2 ~ 5.x Support.
 - **High Performance:** The messaging performance is higher than intercept requests.
 - **High Speed:** No need to consider alert box safety timeout.
-- **Lightwight:** This framework contains only 3 files.
+- **Lightweight:** This framework contains only 3 files.
 - **Non-intrusive:** There is no need to make the webview class inherit from other base class.
 
 ## Work Projects
@@ -59,69 +58,36 @@ From February 2018
 
 Takeaway Business Edition
 
-- Head of The Order Business Module (Architecture, Planning, Docking)
-- Data Persistence Layer and Data Access Layer Reconstruction
-- Network Layer Reconstruction
-- Video Editing (Clips & Filters & Mixing)
-- iOS Componentization
-- Business Understanding & Implementation
+#### Main Output
 
-### [ELSEWHERE](https://itunes.apple.com/cn/app/elsewhere/id1210276702?mt=8)
+- MTFlutter Dynamic (Flap) - Proxy Code Automatic Generation.
+- WMBAVKit - A library of basic capabilities for iOS video editing based on OpenGL.
+- Order module platform - Support two independent business lines for takeaway and retail.
+- Data construction of the order business line
 
-From June 2017
+#### Other Output
 
-Shared Space/Concentrate On Work/Elegant Meeting
-
-- Map & Location
-- Pay
-- Hybrid
-- Functional Programming
-
-### [卡牛](https://itunes.apple.com/cn/app/%E5%8D%A1%E7%89%9B%E4%BF%A1%E7%94%A8%E7%AE%A1%E5%AE%B6%E4%B8%93%E4%B8%9A%E7%89%88-%E4%BF%A1%E7%94%A8%E7%AE%A1%E7%90%86%E9%A2%86%E5%AF%BC%E5%93%81%E7%89%8C/id1192251326?mt=8)
-
-From October 2015
-
-Credit Card Management Assistant/Personal Finance/Debit And Credit
-
-- Multitasking
-- CoreAnimation
-- APNs
-
-### [金证资管云](http://www.szkingdom.com/publisher/Field_Ass_01/ContentDetail-15951.html)
-
-From March 2014
-
-Investment Deals/Asset Management/Private Fund
-
-- Qt
-- Socket
+- MTFlutter scaffolding, solve the environment configuration, team collaboration, version synchronization and other issues
+- Source mirroring repo, generate source code automatically in version dimension, effective improved online problem operation and maintenance timeliness
+- Order synchronization reconstruction，ensure the timing order and integrity of service links under high concurrency
 
 ## Employment History
 
 ### Beijing Sankuai Online Technology Co., Ltd.
 
-iOS Developer
+iOS Development Engineer 2018/02 - 2018/09
+iOS Senior Development Engineer(Promoted) 2018/10 - Now
+Historical performance during employment: S, B+, A, B+
+Awarded to RSU during talent inventory
 
-February 2018 - Now
-
-- Order Business Module Development (Architecture, Planning, Docking)
-- Data Persistence Layer and Data Access Layer (Reconstruction)
-- Network Layer Development (Reconstruction)
-- WMBAVKit Development (Based on AVFoundation & OpenGL ES)
-- iOS Componentization (Participate)
-- MVVM + RAC
+- Head of Order Module(2019/02 - 2019/11), responsible for iOS client order module technical planning, architecture upgrade, problem handling, data construction, focusing on improving the development efficiency and output quality of the module.
+- In the spring of 2019/2020, the school/social recruits first interviewer, which is responsible for checking the candidate's technical ability in combination with the interview criteria.
 
 ### Invisible Tech, Inc.
 
-iOS Leader
+iOS Team Leader
 
 June 2017 - February 2018
-
-- NetWorking Layer With Functional Programming Design
-- Animation Kit Development
-- JSBridge Development
-- WebView Package
-- ELSEWHERE iOS APP Version Iteration
 
 ### Shenzhen Suishou Personal Finance Technology Co., Ltd.
 
@@ -129,18 +95,11 @@ iOS Developer
 
 October 2015 - January 2017
 
-- APNs Development
-- UI Development
-- Animation Development
-
 ### Shenzhen Kingdom Sci-Tech Co., Ltd.（SC 600446）
 
 C & C++ Developer And Student
 
 March 2014 - October 2015
-
-- Asset Management Cloud Platform Development
-- Self-study Objective-C
 
 ## Education
 
@@ -154,7 +113,6 @@ September 2010 - June 2014
 
 - GitHub：[@Lision](https://github.com/Lision)
 - Blog：[lision.me](https://lision.me/)
-- Twitter: [@Lision](https://twitter.com/LisionChat)
 
 ## Other Information
 
