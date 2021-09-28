@@ -88,8 +88,8 @@ Takeaway Business Edition
 Learning Service iOS Team Leader 2020/06 - 2021/08 (onboarding grant option)
 iOS Component Manager 2021/08 - Now
 
-- The person in charge of Learning Service iOS Team (2020/06-2021/09), who is responsible for improving the development efficiency and delivery quality, building the team and daily management work. 
-- The person in charge of the mobile component management project (2021/09-present), who is responsible for building the component management platform used by the company's multiple business lines.
+- The person in charge of Learning Service iOS Team (2020/06-2021/08), who is responsible for improving the development efficiency and delivery quality, building the team and daily management work. 
+- The person in charge of the mobile component management project (2021/08-present), who is responsible for building the component management platform used by the company's multiple business lines.
 - In the fall of 2020/2021, the school recruits interviewer and social interviewer, who is responsible for checking the candidate's technical ability in combination with the interview criteria.
 
 ### Beijing Sankuai Online Technology Co., Ltd.
