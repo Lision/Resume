@@ -8,7 +8,7 @@ Chaoyang District, Beijing, China.
 
 ## TECHNICAL SKILLS
 
-- Near 6 Years iOS Development Experience
+- Near 7 Years iOS Development Experience
 	- Solid knowledge about Objective-C
 	- Solid knowledge about CoreAnimation & Multitasking
 	- Solid knowledge about Runtime, RunLoop
