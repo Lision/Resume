@@ -6,7 +6,7 @@
 
 - 1992/男/北京
 - 本科/内蒙古大学(211)/计算机科学与技术
-- 工作年限：6 年
+- 工作年限：7 年
 - GitHub：[https://github.com/Lision](https://github.com/Lision)
 - 技术博客：[https://lision.me/](https://lision.me/)
 - 掘金专栏（优秀作者）：[https://juejin.im/user/57dd4ff12e958a0054643da3](https://juejin.im/user/57dd4ff12e958a0054643da3)
