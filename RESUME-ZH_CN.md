@@ -25,25 +25,11 @@
 
 ### LSAnimator - 一个易于阅读和编写，非侵入性的多链式动画框架。
 
-[https://github.com/Lision/LSAnimator](https://github.com/Lision/LSAnimator)
-
-1600+ Stars
-
-- **Swift 友好:** 支持 Swift 3.2 - 5.x，使用独立的 Swift Framework 封装 Swift 接口。
-- **书写友好:** 支持 DSL 链式调用时自动补全参数。
-- **灵活性:** 可以还原几乎所有的动画交互设计原型。
-- **可扩展:** 可以在动画链的任意节点前后插桩，也支持在多个动画链全部执行完毕后插桩。
-- **无侵入:** 不需要改变项目现有 View/Layer 的类继承。
+[https://github.com/Lision/LSAnimator](https://github.com/Lision/LSAnimator) 1600+ Stars / 164 Forks / 32 Watch
 
 ### WKWebViewJavascriptBridge - 针对 WKWebView 用于在 Swift 和 JavaScript 之间发送消息的桥。
 
-[https://github.com/Lision/WKWebViewJavascriptBridge](https://github.com/Lision/WKWebViewJavascriptBridge)
-
-1000+ Stars
-
-- **高性能:** 消息传递性能优于基于拦截请求实现的桥。
-- **无侵入:** 不需要改变 webview 的类继承。
-- **轻量化:** 整个框架只有 3 个源码文件。
+[https://github.com/Lision/WKWebViewJavascriptBridge](https://github.com/Lision/WKWebViewJavascriptBridge) 1100+ Stars / 122 Forks / 27 Watch
 
 ## 工作项目
 
@@ -91,16 +77,6 @@ MTFlutter 是美团内部使用的 Flutter 生态，我们还为它赋予了动�
 #### 履约业务线数据建设
 
 迭代周期缩短，履约业务作为外卖核心需要具备短期检验版本质量能力。我当时作为履约业务线负责人，针对性能和线上运维两个层面做数据规划，带领组内工程师完成了涵盖性能、线上运维、业务模型的数据建设工作，保证迭代周期缩短后的**质量把控，运维效率**。
-
-#### 其他产出
-
-- MTFlutter 脚手架，解决 Flutter 在集团内部落地时面临的环境配置、团队协作、版本同步等问题。
-- 网络库重构，中间层统一对集团网络基建的修改，提升**可读性与可维护性**。
-- 源码镜像仓库，**全自动化**的版本维度源码镜像，有效**提升了线上问题运维时效**。
-- 订单同步重构，时间戳与数据库操作原子化，**保证高并发下业务链路的时序正确性与完整性**。
-- 大订单量级性能优化，首次载入订单列表的时长**大幅降低（iPhone 6s 10+s 降至 2s 内）**。
-- 订单量分层性能统计，针对不同订单量级做性能数据的分层统计，**避免大订单量下性能问题得不到及时暴露**。
-- 隐私号降级，通过改进隐私号服务异常时的降级处理逻辑优化性能减少对后端 EAPI 压力，**隐私号降级峰值流量从 110 城 10.5 倍降至80 城 1.5 倍（上线后用户覆盖率 80% 时数据），无线上事故**。
 
 ## 工作经历
 
