@@ -16,20 +16,28 @@
 
 - 接近 8 年 iOS 工作开发经验
 	- 熟悉 Xcode, Objective-C, Swift
-	- 熟悉 CoreAnimation, Multitasking, Runtime, RunLoop
-	- 了解 SwiftUI, Flutter, ReactNative
+	- 熟悉 CoreAnimation, Multitasking, Runtime, RunLoop, SwiftUI
+	- 了解 Flutter, ReactNative 等主流跨端技术
 - 接近 8 年 Git 命令行使用经验，熟悉常用的 Git 分支管理模型以及重写 Git 历史等操作
 - 自学 Ruby，Python，JavaScript，Html，CSS，Dart 等语言，具备相关开发能力
 
+## 个人项目
+
+### Hidden - 屏幕时间管理工具
+
+TF 公测版：[https://testflight.apple.com/join/22NPsJbj](https://testflight.apple.com/join/22NPsJbj)
+
+> Note: 经过 Apple 审核通过后 App 才具备公测资格，TF 包内购不会真实收费，可试用所有功能。
+
 ## 开源项目
-
-### LSAnimator - 一个易于阅读和编写，非侵入性的多链式动画框架。
-
-[https://github.com/Lision/LSAnimator](https://github.com/Lision/LSAnimator) 1600+ Stars / 164 Forks / 32 Watch
 
 ### WKWebViewJavascriptBridge - 针对 WKWebView 用于在 Swift 和 JavaScript 之间发送消息的桥。
 
 [https://github.com/Lision/WKWebViewJavascriptBridge](https://github.com/Lision/WKWebViewJavascriptBridge) 1100+ Stars / 122 Forks / 27 Watch
+
+### LSAnimator - 一个易于阅读和编写，非侵入性的多链式动画框架。
+
+[https://github.com/Lision/LSAnimator](https://github.com/Lision/LSAnimator) 1600+ Stars / 164 Forks / 32 Watch
 
 ## 工作项目
 
@@ -97,8 +105,7 @@ iOS Engineer（T10）2022/01 - 至今（RSU）
 
 iOS Engineer 2018/02 - 2020/06（职级晋升 / 人才盘点授予 RSU）
 
-- 订单模块负责人（2019/02 - 2019/11），负责美团外卖 iOS 商家客户端订单模块技术规划，架构设计，问题处理。
-- 履约业务线组长（2019/11 - 2020/06），负责履约业务技术规划，架构升级，数据建设，指标定义与 OKR 管理等相关工作。
+- 订单模块负责人（2019/02 - 2019/11），负责美团外卖 iOS 商家客户端订单模块的技术规划，架构设计，数据建设，指标定义以及相关 OKR 管理等工作。
 - 2019/2020 年春季校招一面面试官，社招一面面试官。
 
 ### 北京隐力场科技有限公司 2017/06 - 2018/02
