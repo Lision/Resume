@@ -24,9 +24,9 @@
 
 ### Hood - 屏幕时间管理工具
 
-TestFlight 公测链接：[https://testflight.apple.com/join/22NPsJbj](https://testflight.apple.com/join/22NPsJbj)
+[https://apps.apple.com/us/app/hood-screentime-manager/id6449154620](https://apps.apple.com/us/app/hood-screentime-manager/id6449154620) SwiftUI / ScreenTimeAPI / IAP
 
-> Note: 经过 Apple 审核通过后 App 才具备公测资格，TF 包内购不会收费，可体验所有功能。
+> Note: 中国大陆地区因为 ICP 备案问题尚未解决暂未提供服务支持。
 
 ## 开源项目
 
