@@ -12,7 +12,7 @@
 
 10 年 iOS 研发经验：
 
-- 负责过千万月活外卖商家 App 核心订单模块，主导订单链路回溯能力建设，实现线上订单问题分钟级解决；
+- 负责过千万月活美团外卖商家 App 核心订单模块，主导订单链路回溯能力建设，实现线上订单问题分钟级解决；
 - 曾任职猿辅导 App 学习服务（课堂外）iOS 组负责人，从零搭建精准测试机制有效保障了团队交付质量；
 - 熟悉 DevOps 理念，擅长通过技术手段结合工程经验帮助团队提升研发效率与产出质量。
 
@@ -20,8 +20,14 @@
 
 - 熟悉 Xcode, Objective-C, Swift；
 - 熟悉 CoreAnimation, Multitasking, Runtime, RunLoop；
-- 熟悉 ArkUI/Hvigor 等纯血鸿蒙技术框架，了解 Gradle/Android SDK 等安卓技术框架。
-- 了解 ReactNative, Flutter, KMM 等主流跨端技术以及 Vue，React 等主流前端框架；
+- 熟悉 ArkUI/Hvigor 等纯血鸿蒙技术框架，了解 Gradle/Android SDK 等安卓技术框架；
+- 了解 ReactNative, Flutter, KMM 等主流跨端技术以及 Vue，React 等主流前端框架。
+
+## 个人项目
+
+### Hood - 屏幕时间管理工具
+
+[https://apps.apple.com/us/app/hood-screentime-manager/id6449154620](https://apps.apple.com/us/app/hood-screentime-manager/id6449154620) SwiftUI / ScreenTimeAPI / IAP / i18n
 
 
 ## 开源项目
