@@ -23,12 +23,6 @@
 - 熟悉 ArkUI/Hvigor 等纯血鸿蒙技术框架，了解 Gradle/Android SDK 等安卓技术框架；
 - 了解 ReactNative, Flutter, KMM 等主流跨端技术以及 Vue，React 等主流前端框架。
 
-## 个人项目
-
-### Hood - 屏幕时间管理工具
-
-[https://apps.apple.com/us/app/hood-screentime-manager/id6449154620](https://apps.apple.com/us/app/hood-screentime-manager/id6449154620) SwiftUI / ScreenTimeAPI / IAP / i18n
-
 
 ## 开源项目
 
