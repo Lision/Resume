@@ -2,24 +2,27 @@
 
 ## 李鑫
 
-(+86)185-7665-3086  lisionmail@gmail.com
+(+86)185-7665-3086	lisionmail@gmail.com
 
 - 1992/男/北京
 - 本科/内蒙古大学(211)/计算机科学与技术
-- 工作年限：11 年
 - GitHub：[https://github.com/Lision](https://github.com/Lision)
-- 技术博客：[https://lision.me](https://lision.me)
-- 个人公众号：Lision
 
 ## 能力简介
 
-- 接近 10 年 iOS 工作开发经验
-	- 熟悉 Xcode, Objective-C, Swift
-	- 熟悉 CoreAnimation, Multitasking, Runtime, RunLoop
-	- 了解 ReactNative, Flutter, KMM 等主流跨端技术，具备相关开发能力
-- 接近 10 年 Git 使用经验，熟悉项目中常用的 Git 分支管理模型
-- 熟悉 ArkTS/ArkUI 鸿蒙客户端开发技术，了解 Vue，React 等前端开发框架
-- 接近 5 年项目管理经验，接近 1.5 年 10 人团队实线管理经验
+10 年 iOS 研发经验：
+
+- 负责过千万月活外卖商家 App 核心订单模块，主导订单链路回溯能力建设，实现线上订单问题分钟级解决；
+- 曾任职猿辅导 App 学习服务（课堂外）iOS 组负责人，从零搭建精准测试机制有效保障了团队交付质量；
+- 熟悉 DevOps 理念，擅长通过技术手段结合工程经验帮助团队提升研发效率与产出质量。
+
+技能清单：
+
+- 熟悉 Xcode, Objective-C, Swift；
+- 熟悉 CoreAnimation, Multitasking, Runtime, RunLoop；
+- 熟悉 ArkUI/Hvigor 等纯血鸿蒙技术框架，了解 Gradle/Android SDK 等安卓技术框架。
+- 了解 ReactNative, Flutter, KMM 等主流跨端技术以及 Vue，React 等主流前端框架；
+
 
 ## 开源项目
 
@@ -59,11 +62,9 @@
 
 #### 其他产出
 
-- MTFlutter 脚手架，解决 Flutter 在集团内部落地时面临的**环境配置、团队协作、版本同步**等问题。
 - 订单同步重构，时间戳与数据库操作原子化，**保证高并发下业务链路的时序正确性与完整性**。
 - 大订单量级性能优化，首次载入订单列表的时长**大幅降低（iPhone 6s 10+s 降至 2s 内）**。
 - 订单量分层性能统计，针对不同订单量级做性能数据的分层统计，**避免大订单量下性能问题得不到及时暴露**。
-- 隐私号降级，通过改进隐私号服务异常时的降级处理逻辑优化性能减少对后端 EAPI 压力，**隐私号降级峰值流量从 110 城 10.5 倍降至80 城 1.5 倍（上线后用户覆盖率 80% 时数据），无线上事故**。
 
 ## 工作经历
 
