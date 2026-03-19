@@ -34,6 +34,7 @@
 **Background**: In 2024, HarmonyOS announced commercial launch with no Android APK compatibility, posing user churn risk on Huawei channel
 
 **Technical Challenges**:
+
 - Deliver core features within 3 months (originally requiring 1 year of work for dual platforms)
 - Coordinate cross-team collaboration across Beijing and Shenzhen with completely new tech stack
 
@@ -49,6 +50,7 @@
 **Background**: During team expansion with rapid business iteration, unit test coverage costs were too high, affecting delivery quality
 
 **Technical Challenges**:
+
 - Client-side business code unit testing was costly and impacted development efficiency
 - Test coverage gaps (missed/untested cases) were hard to detect, causing frequent online incidents
 
@@ -65,6 +67,7 @@
 **Technical Challenge**: Meituan's MTFlutter framework had limited dynamic update capabilities, unable to support complex class/library relationship mapping
 
 **Solution & Impact**:
+
 - **Core Implementation**: Implemented Proxy code generator through Dart language AST parsing
 - **Technical Breakthrough**: Supported class/library relationship mapping, enabling unlimited Flap dynamism
 - **Impact**: Enabled dynamic capability for Meituan Waimai Merchant App
@@ -86,6 +89,7 @@
 **Wireless Development Expert - AI Architecture & Efficiency Platform**
 
 **Scope of Responsibility**:
+
 - **Cyber iOS Lead**: Technical planning and architecture design for page builder platform's low-code parsing engine, covering **90%+ online pages** (homepage, search, product details, etc.), ensuring correctness, stability of protocol parsing, and rendering performance
 - **AI Coding Lead**: Driving team AI Coding R&D paradigm implementation, including R&D testing process redefinition, efficiency metrics system construction, and AI Coding infrastructure development
 
@@ -96,6 +100,7 @@
 **iOS Senior R&D Engineer (Equity Incentive)**
 
 **Scope of Responsibility**:
+
 - **Client Architecture Lead**: Design evolution planning for Zixuangu client architecture, supporting stable operation of 10M+ user product
 - **HarmonyOS Project Technical Lead**: Overall architecture design, core infrastructure capability building, roadmap formulation and progress control for HarmonyOS Zixuangu, coordinating Beijing and Shenzhen team collaboration
 
@@ -108,6 +113,7 @@
 **Learning Services iOS Leader (Option Incentive)**
 
 **Scope of Responsibility**:
+
 - **Team Management**: iOS team of 10 people building and technical direction control, dual-platform team of 20 people task management and cross-team collaboration (rotating)
 - **Technical Initiatives**: Drove precision testing practice implementation, established quality assurance system
 - **Recruiting**: 2020/2021 Fall Campus Recruiting Interviewer, Campus New Hire Training Lecturer, Social Recruiting Second Round Interviewer
@@ -121,6 +127,7 @@
 **iOS Senior R&D Engineer (Promotion/RSU Grant in Talent Review)**
 
 **Scope of Responsibility**:
+
 - **Order Business Module Owner**: Technical planning, architecture design, and data construction for food delivery merchant-side order module, supporting 10M+ merchant order processing
 - **Recruiting**: 2019/2020 Spring Campus Recruiting First Round Interviewer, Social Recruiting First Round Interviewer
 
@@ -137,10 +144,12 @@ Responsible for iOS development of products such as Suishouji
 ## Skills
 
 **Proficient**
+
 - iOS Development: Objective-C, Swift, CoreAnimation, Runtime, RunLoop, Multitasking and other system frameworks
 - HarmonyOS Development: ArkUI, Hvigor and other pure HarmonyOS technology frameworks
 
 **Familiar**
+
 - Cross-platform: ReactNative, Flutter, KMM
 - Frontend Frameworks: Vue, React
 - Android: Gradle, Android SDK
@@ -149,4 +158,5 @@ Responsible for iOS development of products such as Suishouji
 ## Other Information
 
 - English CET-4
+
 - Founding member of [IMUDGES (Inner Mongolia University Elite Student Developer Alliance)](http://www.imudges.com/), technical project awarded single-item scholarship (**5%** grant rate)
