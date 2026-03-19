@@ -80,9 +80,10 @@ During Yuanfudao's expansion period, accompanied by team growth and rapid busine
 
 ### Alibaba (09988.HK/BABA) 2025/06 - Present
 
-Wireless Development Expert
+Wireless Development Expert - AI Architecture & Efficiency Platform
 
-- Responsible for technical planning and architecture design of the page builder platform's low-code parsing engine, ensuring correctness and stability of protocol parsing and rendering performance.
+- **Cyber iOS Lead**, responsible for technical planning and architecture design of the page builder platform's low-code parsing engine, ensuring correctness, stability of protocol parsing, and rendering performance;
+- Leading the exploration of AI Coding R&D paradigms, including but not limited to redefining R&D testing processes, R&D efficiency metrics, and AI Coding infrastructure construction.
 
 ### Tencent (00700.HK) 2022/01 - 2025/06
 
